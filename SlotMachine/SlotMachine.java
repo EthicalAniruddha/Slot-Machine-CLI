@@ -71,6 +71,7 @@ public class SlotMachine {
         System.out.println(gap+gap+"-------------\n");
     }
 
+    // To switch pots. If player wins a normal pot or jackpot
     public static void switchPotNorJack(int index, char ch) {
 
         if (ch == 'J') {
