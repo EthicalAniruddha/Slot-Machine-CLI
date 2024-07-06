@@ -124,10 +124,10 @@ public class SlotMachine {
         }
     }
 
-    // To check if the player has won or not and declare the gain variable
+    // To check if the player has won jackpot or not
     public static boolean checkJackPot() {
 
-        if (result[0] == result[1] && result[1] == result[2]) { // For jackpot only
+        if (result[0] == result[1] && result[1] == result[2]) {
 
             switchPotNorJack(0, 'J');
             return true;
